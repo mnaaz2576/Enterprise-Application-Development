@@ -144,7 +144,7 @@ This repository is created as part of academic coursework and is intended for le
 ## 👩‍💻 Author
 
 **Madiha Naaz**
-B.E. Information Technology
-Chaitanya Bharathi Institute of Technology
+#### B.E. Information Technology
+#### Chaitanya Bharathi Institute of Technology
 
 ---
