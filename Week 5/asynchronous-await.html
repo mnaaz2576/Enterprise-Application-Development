@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>promises</title>
+</head>
+<body>
+<script>
+
+function prepareOrder(item) {
+    return new Promise(function(resolve) {
+
+        setTimeout(function() {
+            resolve(item + " is ready!");
+        }, 5000);
+
+    });
+}
+
+async function serveCustomer() {
+
+    console.log("Preparing your order...");
+    
+    let message = await prepareOrder("Pizza");
+    
+    console.log(message);
+    console.log("Please collect your order from the counter.");
+
+}
+
+serveCustomer();
+
+</script>
+</body>
+</html>

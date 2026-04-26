@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username == "" || password == "") {
+                alert("All fields are required!");
+            } else {
+                alert("Login Successful!");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Login Page</h1>
+
+    Username:
+    <input type="text" id="username"><br><br>
+
+    Password:
+    <input type="password" id="password"><br><br>
+
+    <button onclick="validateForm()">Login</button>
+
+
+
+<br>
+<br>
+<hr>
+<hr>
+
+<p >Name: Madiha Naaz</p>
+    <p >Roll No.:160124737153</p>
+
+</body>
+</html>

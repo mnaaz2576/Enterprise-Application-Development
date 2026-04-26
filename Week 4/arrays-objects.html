@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Arrays and Objects</title>
+</head>
+<body>
+
+<script>
+
+     let details = {name:"madiha", rollno:153, section:"IT3"};
+    
+    console.log("Details of student:" + details["name"]+ " " + details["rollno"] + " " + details["section"]);
+
+
+    details.college = "CBIT";
+    console.log("After Adding College:", details);
+
+    // Updating property
+    details.section = "IT4";
+    console.log("After Updating Section:", details);
+
+    // Deleting property
+    delete details.rollno;
+    console.log("After Deleting Roll No:", details);
+
+      let a = [10,20,30,40,50,60,70,80,90];
+
+    for(let i=0; i<a.length; i++) {
+        console.log(a[i]);
+    }
+
+    console.log("String:", a.toString());
+    console.log("Value at index 3:", a.at(3));
+    console.log("Joining:", a.join(":"));
+    console.log("Popping:", a.pop());
+
+    a.push(2000);
+    console.log("After push:", a);
+
+    a.shift();
+    console.log("After shift:", a);
+
+    a.unshift(100);
+    console.log("After unshift:", a);
+
+    console.log("Sorted:", a.sort());
+    console.log("Reversed:", a.reverse());
+console.log("Madiha Naaz - 160124737153");
+
+</script>
+
+</body>
+</html>

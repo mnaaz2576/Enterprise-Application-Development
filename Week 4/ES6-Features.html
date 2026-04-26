@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> ES6 Features</title>
+</head>
+<body>
+    <script>
+        function greet(name) {
+            console.log("Hello, " + name + "! (Function Declaration)");
+        }
+
+        greet("Madiha ");
+        greet(" Naaz");
+
+        let multiply = function(a, b) {
+            return a * b;
+        };
+
+        console.log("7 x 6 =", multiply(7, 6), "(Function Expression)");
+        let add = (a, b) => a + b;
+
+        console.log("40 + 60 =", add(40, 60), "(Arrow Function)");
+        let showMessage = () => console.log("This is an arrow function with no parameters!");
+        showMessage();
+
+             let squareAndCube = (n) => {
+            let square = n * n;
+            let cube = n * n * n;
+            return { square, cube }; // Returning an object
+        };
+
+        console.log(squareAndCube(30));
+console.log("Madiha Naaz - 160124737153");
+    </script>
+</body>
+</html>
