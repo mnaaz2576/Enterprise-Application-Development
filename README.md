@@ -60,11 +60,11 @@ Each folder contains programs related to that week’s lab exercises.
 
 ### 🔹 Week 6: Bootstrap & React Basics
 
-* Responsive Timetable using Bootstrap
-* React Counter Component
+* Timetable using Bootstrap
 
 ### 🔹 Week 7: React Development
 
+* React Counter Component
 * Timer Application
 * State and Props Example
 * Controlled Forms
